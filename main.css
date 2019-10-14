@@ -1,11 +1,13 @@
 #img-div {
-    width: 100%;
+    width: 95%;
     height: 100%;
     display: table;
+    background: white;
 }
 
 #image {
  max-width:100%; 
+ padding: 2%;
 }
 
 .center {
@@ -13,4 +15,37 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(92, 90, 90);
+    margin: 0;
+    background: #BACBD9;
+}
+
+ul {
+    list-style-type: disc;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: square;
 }
